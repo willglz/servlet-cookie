@@ -2,7 +2,9 @@
 Sencilla aplicación con Java EE / Jakarta. Trabajamos el uso de cookies para un manejo de sesiones con servlets.
 
 ## ¿Qué es una cookie?
-Una cookie es un pequeño archivo que se almacena en el navegador del usuario. Las cookies se utilizan para almacenar información que el servidor necesita para identificar al usuario en distintas interacciones con la web o almacenar información del propio usuario para su posterior uso.
+Una cookie es un pequeño archivo que se almacena en el navegador del usuario. Las cookies se utilizan para almacenar información que el servidor necesita para identificar al usuario en distintas interacciones con la web o almacenar información del propio usuario para su posterior uso. 
+
+Las Cookies son ampliamente utilizadas en aplicaciones web para mantener estados de sesión, rastrear la actividad del usuario, ofrecer funcionalidades personalizadas y mejorar la usabilidad del sitio. Sin embargo, es importante tener en cuenta que las Cookies pueden plantear problemas de privacidad si contienen información sensible y se utilizan de manera inadecuada, por lo que es esencial asegurarse de que se implementen adecuadamente y se utilicen de manera responsable.
 
 ## Manejo de Login con Cookies
 Para manejar un sencillo login con cookies, debemos de crear un servlet que nos permita validar el usuario y contraseña, para ello debemos de sobreescribir el método <b>doPost()</b> de nuestro servlet, como por ejemplo:
